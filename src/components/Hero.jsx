@@ -15,10 +15,17 @@ export default function Hero() {
           </p>
 
           <div className="mt-7 flex items-center gap-3">
-            <a href="#technologies" className="rounded-[7px] bg-brand-gradient px-4 py-[11px] text-[11px] font-bold text-white shadow-none hover:opacity-95">
+            <a
+              href="#technologies"
+              className="inline-flex items-center justify-center rounded-[9px] bg-gradient-to-r from-[#ff5d28] to-[#ec3886] px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:opacity-95"
+            >
               Explore Technologies
             </a>
-            <a href="#about" className="rounded-[7px] border border-[#e1e4eb] bg-white px-6 py-[10px] text-[11px] font-medium text-[#5e667a] hover:bg-[#fbfbfd]">
+
+            <a
+              href="#about"
+              className="inline-flex items-center justify-center rounded-[9px] border border-[#e2e5ea] bg-white px-6 py-2.5 text-sm font-medium text-[#485367] transition hover:bg-gray-50"
+            >
               Learn More
             </a>
           </div>
