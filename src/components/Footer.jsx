@@ -22,6 +22,7 @@ export default function Footer() {
             <a href="#contact" className="hover:text-[#d81b7e]"> LinkedIn </a>
             </div>
           </div>
+          
           {groups.map(([title, links]) => (
             <div key={title}>
               <h3 className="text-[11px] font-bold tracking-[0.03em] text-[#3f485d]">{title}</h3>
