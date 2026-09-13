@@ -3,7 +3,7 @@ import StackSidebar from './StackSidebar';
 
 export default function TechnologySection({ technologies, stack, onAdd, onRemove, onRemoveAll }) {
   return (
-    <section id="technologies" className="bg-white pt-0 pb-8 sm:pt-2 sm:pb-10">
+    <section id="technologies" className="-mt-6 bg-white pt-0 pb-8 sm:-mt-6 sm:pb-10">
       <div className="mx-auto max-w-[1060px] px-5 sm:px-7">
         <div>
           <h2 className="text-[28px] font-extrabold tracking-[-0.03em] text-[#0f172a] sm:text-[35px]">
