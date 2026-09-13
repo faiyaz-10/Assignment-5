@@ -35,7 +35,7 @@ export default function Hero() {
           <img
             src={bannerImage}
             alt="Technology stack illustration"
-            className="aspect-square w-[min(150vw,500px)] max-w-full object-contain"
+            className="aspect-square w-[min(150vw,450px)] max-w-full object-contain"
           />
         </div>
       </div>
